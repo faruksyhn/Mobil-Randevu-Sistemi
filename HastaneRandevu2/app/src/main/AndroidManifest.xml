@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emre.hastanerandevu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.DoktorAnaSayfaActivity"></activity>
+        <activity android:name=".Activity.DoktorRandevulariActivity" />
+        <activity android:name=".Activity.RandevuSilActivity" />
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".Activity.ProfilActivity" />
+        <activity android:name=".Activity.FavorilerActivity" />
+        <activity android:name=".Activity.HastaRandevuListActivity" />
+        <activity android:name=".Activity.KullaniciActivity" />
+        <activity android:name=".Activity.RandevuActivity" />
+        <activity android:name=".Activity.DoktorActivity" />
+        <activity android:name=".Activity.BolumActivity" />
+        <activity android:name=".Activity.AdminActivity" />
+        <activity android:name=".Activity.HastaneActivity" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".Activity.AnaMenuActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.GirisActivity" />
+    </application>
+
+</manifest>

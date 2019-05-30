@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5b91e4"
+    tools:context="com.example.emre.hastanerandevu.Activity.GirisActivity">
+    <ImageView
+        android:id="@+id/imgCardiog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/login"
+        />
+    <LinearLayout
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/girisLyt"
+        android:layout_below="@+id/imgCardiog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="TC Kimlik No Giriniz..."
+        android:id="@+id/txtTc"
+        android:ems="10"
+        android:maxLength="11"
+        android:inputType="number"
+        android:text=""
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Şifre Giriniz..."
+        android:id="@+id/txtPass"
+        android:ems="10"
+        android:maxLength="6"
+        android:text=""
+        android:inputType="numberPassword"/>
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_below="@+id/girisLyt"
+        android:layout_centerHorizontal="true"
+        android:background="#e38d66"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+    android:text="Giriş"
+    android:id="@+id/btnLogin"
+    />
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#588dde"
+    android:gravity="center_horizontal"
+
+    tools:context="com.example.emre.hastanerandevu.Activity.MainActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/clipboard"
+    android:layout_marginTop="35dp"
+    android:layout_centerHorizontal="true"/>
+    <RelativeLayout
+        android:id="@+id/relativMain"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/kytTcNo"
+            android:hint="TC kimlik numarası"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="11"
+            android:inputType="number"/>
+        <EditText
+            android:id="@+id/kytAd"
+            android:layout_below="@+id/kytTcNo"
+            android:hint="Adınızı Giriniz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="20"/>
+        <EditText
+            android:id="@+id/kytSoyad"
+            android:layout_below="@+id/kytAd"
+            android:hint="Soyadınızı Giriniz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="20"/>
+
+        <EditText
+            android:id="@+id/kytPassword"
+            android:hint="Şifre Giriniz"
+            android:layout_below="@+id/kytSoyad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="6"
+            android:inputType="numberPassword"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/btnKayıtOnay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="60dp"
+        android:background="#edbe01"
+        android:text="Kayıt Ol"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hesabım Var"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:id="@+id/txtGiris"
+        android:layout_marginBottom="5dp"
+        />
+</RelativeLayout>

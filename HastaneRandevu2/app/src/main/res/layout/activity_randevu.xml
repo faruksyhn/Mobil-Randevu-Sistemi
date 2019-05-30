@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#5b91e4"
+
+    android:layout_height="match_parent"
+    tools:context=".Activity.RandevuActivity">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/RandevuLinerLayout1"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hastane Adı:"
+            android:textStyle="bold"
+            android:ems="18"
+            />
+        <Spinner
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SpnrHastanelerR"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bölüm Adı:"
+            android:textStyle="bold"
+            />
+        <Spinner
+
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SpnrBolumlerR"
+            android:layout_marginBottom="15dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doktor Adı:"
+            android:textStyle="bold"
+            />
+        <Spinner
+
+            android:paddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/SpnrDoktorlarR"
+            android:layout_marginBottom="15dp"
+            />
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="Tarih Seçiniz"
+
+            android:id="@+id/Tarih"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RandevuLinerLayout1"
+        android:orientation="horizontal"
+        android:id="@+id/ButtonLinerLayout1"
+        android:layout_marginTop="50dp">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButtonLinerLayout1"
+        android:orientation="horizontal"
+        android:id="@+id/ButtonLinerLayout2">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ButtonLinerLayout2"
+        android:orientation="horizontal"
+        android:id="@+id/ButtonLinerLayout3"
+        >
+    </LinearLayout>
+
+</RelativeLayout>

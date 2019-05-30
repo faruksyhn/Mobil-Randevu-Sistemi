@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="#0098FF"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="350dp"
+    android:layout_height="350dp">
+<EditText
+    android:layout_marginTop="70dp"
+    android:ems="13"
+    android:layout_gravity="center"
+    android:inputType="numberPassword"
+    android:hint="Eski şifreyi gitriniz"
+    android:maxLength="6"
+    android:id="@+id/txtEskiSifre"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtYeni1"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+android:hint="Yeni şifreyi giriniz"
+        android:ems="13"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/txtYeni2"
+        android:inputType="numberPassword"
+        android:maxLength="6"
+        android:hint="Yeni şifreyi tekrar giriniz"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+
+        android:ems="13"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content" />
+    <Button
+
+        android:layout_marginTop="25dp"
+        android:id="@+id/btnSifreGuncelle"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Şifre güncelle"/>
+</LinearLayout>

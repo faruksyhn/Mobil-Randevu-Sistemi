@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#424F63"
+    android:layout_height="match_parent"
+    tools:context=".Activity.AdminActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+android:layout_marginTop="160dp"
+
+        android:layout_marginRight="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        >
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/HastaneEkle"
+            android:background="@drawable/hospital"
+            />
+        <TextView
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/HastaneEkle"
+            android:textSize="22dp"
+            android:text="Hastane"/>
+
+        <Button
+            android:id="@+id/BolumEkle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/checklist"
+            android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/txthstekle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/BolumEkle"
+            android:layout_alignStart="@+id/BolumEkle"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="0dp"
+            android:text="Bölüm"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/DoktorEkle"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/doctor"
+            android:layout_below="@+id/txthstekle"
+            android:layout_marginTop="25dp"
+
+            />
+        <TextView
+            android:id="@+id/txtblmekle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/DoktorEkle"
+            android:textSize="22dp"
+            android:text="Doktor Ekle"/>
+
+        <Button
+            android:onClick="secim"
+            android:id="@+id/RandevuDuzenle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/DoktorEkle"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/book"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/RandevuDuzenle"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="21dp"
+            android:text="Randevu"
+            android:textSize="22dp" />
+    </RelativeLayout>
+
+</RelativeLayout>

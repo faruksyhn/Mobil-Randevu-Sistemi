@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1007102921246",
+    "firebase_url": "https://hastanerandevu2.firebaseio.com",
+    "project_id": "hastanerandevu2",
+    "storage_bucket": "hastanerandevu2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1007102921246:android:dbd7c770ed470f89",
+        "android_client_info": {
+          "package_name": "com.example.emre.hastanerandevu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1007102921246-m8mb7qmtt377jhso82vilimsuaruisu7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emre.hastanerandevu",
+            "certificate_hash": "0f53e568852d069948fea2a77a70b49a2ffd1176"
+          }
+        },
+        {
+          "client_id": "1007102921246-uecih1u3tkrm7i3aj3f7g0923urpghah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emre.hastanerandevu",
+            "certificate_hash": "94766c8eeec0051c2651262e6e1d89501b1ef4c0"
+          }
+        },
+        {
+          "client_id": "1007102921246-opt0h974ul899ai7jvf10qn38esisntp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOzcGkicVk9q0MlYlKZ0BJJWhlCfQZO5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1007102921246-opt0h974ul899ai7jvf10qn38esisntp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

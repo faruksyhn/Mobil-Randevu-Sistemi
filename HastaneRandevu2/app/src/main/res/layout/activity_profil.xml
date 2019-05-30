@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFC107"
+    tools:context=".Activity.ProfilActivity"
+    >
+
+   <ImageView
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="50dp"
+       android:src="@drawable/book"
+       android:id="@+id/imgProfilemg"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@+id/imgProfilemg"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKullaniciAdi"/>
+    <TextView
+        android:layout_below="@+id/txtKullaniciAdi"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtKullaniciTC"/>
+    <Button
+android:onClick="sifreSecim"
+        android:id="@+id/btnProfilsfre"
+        android:layout_below="@+id/txtKullaniciTC"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Şifre Güncelle"/>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Çıkış"
+android:onClick="profilCikis"
+        android:background="#F44336"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       />
+
+</RelativeLayout>
